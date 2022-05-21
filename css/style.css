@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* * - all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(215, 215, 179);
+}
+
+.container {
+    /* border: 2px solid yellow; */
+    height: 100vh; /* hv - viewport-height */
+    margin: 0 auto; /* joondab ainult block tyypi elemente */
+    width: 75%;
+}
+
+.title-container {
+    padding: 1rem 0; /* 1rem - 16px */
+}
+
+.title-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.decription-container {
+    padding: 1rem 0;
+}
+
+.decription-container p {
+    color: #333;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.table-container {
+    width: 75%;
+    margin: 3rem auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#td-method {
+    padding-left: 2rem;
+}
+
+#td-method ul li:first-child {
+    margin-top: 2rem;
+}
+
+#td-method ul li {
+    margin-bottom: 2rem;
+}
+
+#td-method ul li span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#td-ingredients {
+    text-align: right;
+}
+
+#td-ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+
+#td-ingredients ul li:first-child {
+    margin-top: 0.5rem;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+.footer ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li:first-child {
+    margin-right: 5rem;
+}
+
+.footer ul li:last-child {
+    margin-left: 5rem;
+}
+
+.footer ul li a {
+    color: #777;
+    font-size: 3rem;
+}
